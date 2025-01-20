@@ -14,9 +14,27 @@ Amazon clone built using **HTML** and **CSS**. This project replicates the desig
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
 
-## Installation
-
-1. Clone the repository:
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
    ```bash
-   git clone https://github.com/your-username/amazon-clone.git
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+## Contact
+For any queries or suggestions, feel free to reach out:
+- **Name**: Vedant Nikam
+- **Email**: [nikam.vedant05@gmail.com]
+- **GitHub**: [https://github.com/Vednik123](https://github.com/Vednik123)
+
 
