@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: #E3E6E6;
+}
+
+.navbar{
+    height: 60px;
+    width:100%;
+    background-color: #0f1111;
+    color: white;
+    /* jb bhi position sticky karni ho top ko zero assign karo */
+    top: 0px; 
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    width: 326px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo{
+    height: 50px;
+    width: 130px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.navlogo img{
+    height: 45px;
+    width: 130px;
+    margin-bottom: 2px;
+}
+
+.navlogo img:hover{
+   border:1px solid white;
+   cursor: pointer;
+}
+
+.navaddress{
+    height: 40px;
+    width: 182px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navaddress:hover{
+    border: 1px solid white;
+}
+
+
+.nav-search{
+    height: 60px;
+    width: 810px;
+}
+
+.navall{
+    background-color: #e6e6e6;
+    height: 40px;
+    width: 51px;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.navall i{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: small;
+    opacity: 50%;
+}
+
+.navall p{
+    font-size: small;
+    opacity: 50%;
+}
+
+#navinput{
+    height: 40px;
+    width: 685px;
+    margin-top: 10px;
+}
+
+#inp{
+    height: 38px;
+    width: 685px;
+    border: 0;
+}
+
+.navsrchlogo{
+    background-color: #febd68;
+    width: 45px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    color: black;
+}
+
+
+.navbar-right{
+    width: 384px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.navr1{
+    height: 50px;
+    width: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.navr2{
+    height: 50px;
+    width: 132px;
+    margin-top:15px;
+}
+
+.navr3{
+        height: 50px;
+        width: 77px;
+        margin-top:15px;
+}
+
+.navr4{
+    height: 50px;
+    width: 84px;
+    margin-top:15px;
+}
+
+
+
+.nav2{
+    height: 39px;
+    width: 100%;
+    background-color: #272c31;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.nav2options{
+    width: 1432px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+
+.advertise{
+    height: 260px;
+   background-image: url("advertisement_pic.jpg");
+   background-size: cover;
+   padding-left: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+
+
+.maincard{
+    height: 950px;
+    width: 1480px;
+    /* background-color: red; */
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.cards{
+    height: 420px;
+    width: 320px;
+    padding: 15px;
+    background-color: white;
+    margin: 10px;
+}
+
+.cards img{
+    padding: 5px;
+    height: 152px;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.cards p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.cards a{
+    text-decoration: none;
+    opacity: 80%;
+    font-weight: 500;
+    font-size: small;
+    padding-top:15px;
+    padding-left: 5px;
+}
+
+
+
+
+
+.maincard2{
+    height: 285px;
+    width: 1460px;
+    background-color: white;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-top:10px;
+}
+
+.prod{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.prodinfo{
+   display: flex;
+   align-items: center;
+}
+
+.maincard2 p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.maincard2 a{
+    text-decoration: none;
+    opacity: 80%;
+    font-weight: 500;
+    font-size: small;
+    padding-top:20px;
+    padding-left: 5px;
+}
+
+
+
+hr{
+    width: 1450px;
+    margin: auto;
+    opacity: 60%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.signin{
+    height: 150px;
+    width: 1460px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.signin button{
+    margin: 0;
+    background-color: #fbde3c;
+    width: 243px;
+    height: 30px;
+    border: 0;
+    font-size: medium;
+}
+
+.signin p{
+    font-size: small;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #272c31;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footercard{
+    height: 294px;
+    width: 132px;
+    color: white;
+}
+
+.footercard p{
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.footercard ul{
+    font-size: small;
+    margin: 0px;
+    padding: 0;
+}
+
+
+
+
+.footer2{
+    height: 250px;
+    width: 100%;
+    background-color: #0f1111;
+}
+
+.lastinfo{
+    height: 181px;
+    width: 600px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.minifooter{
+    height: 43px;
+    width: 150px;
+    color: white;
+}
+
+.miniinfo{
+    font-size: small;
+    font-weight: lighter;
+    opacity: 50%;
+}
+
+
+
+.copyrights{
+    height: 56px;
+    margin-top: 20px;
+    background-color: #0f1111;
+}
+
+.copyrights p{
+    font-size: small;
+    text-align: center;
+    color: white;
+}
